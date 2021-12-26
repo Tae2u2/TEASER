@@ -187,7 +187,7 @@ a {
 
 .custom-shape-divider-top-1639503433 {
   position: absolute;
-  top: 710px;
+  top: 713px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -206,10 +206,9 @@ a {
 }
 
 .centerBox {
-  width: 800px;
-  height: 400px;
+  display: flex;
+  justify-content: center;
   margin-top: 200px;
-  margin-left: 23vw;
   opacity: 0;
   transform: scale(0.5);
   transition: all 1s ease-in-out;
@@ -239,24 +238,24 @@ a {
 .centerLi::before {
   content: "";
   position: absolute;
-  top: 70px;
-  left: -6px;
+  top: 71px;
+  left: 5px;
   border-top-right-radius: 40px;
-  box-shadow: 4px -14px var(--white);
-  width: 35px;
-  height: 40px;
+  box-shadow: 7px -7px var(--white);
+  width: 20px;
+  height: 20px;
   background: #6d4c41;
   z-index: 10;
 }
 .centerLi::after {
   content: "";
   position: absolute;
-  top: 70px;
-  right: -6px;
+  top: 71px;
+  right: 5px;
   border-top-left-radius: 40px;
-  box-shadow: -4px -14px var(--white);
-  width: 35px;
-  height: 40px;
+  box-shadow: -7px -7px var(--white);
+  width: 20px;
+  height: 20px;
   background: #6d4c41;
   z-index: 10;
 }
@@ -512,4 +511,10 @@ ion-icon {
 
 .smooth h2 {
   color: var(--white);
+}
+
+@media (max-width: 800px) {
+  .centerBox {
+    opacity: 0;
+  }
 }
