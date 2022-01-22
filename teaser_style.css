@@ -157,8 +157,12 @@ a {
   font-size: 2em;
   text-align: center;
   cursor: pointer;
-  box-shadow: inset 3px 3px 3px var(--babyYellow);
   z-index: 1000;
+}
+
+#topBtn ion-icon {
+  padding-left: 6px;
+  padding-top: 5px;
 }
 
 #topBtn:hover {
@@ -187,8 +191,8 @@ a {
 
 .custom-shape-divider-top-1639503433 {
   position: absolute;
-  top: 713px;
-  left: 0;
+  top: 706px;
+  left: 9px;
   width: 100%;
   overflow: hidden;
   line-height: 0;
@@ -313,27 +317,6 @@ a {
 }
 .centerLi.active .centerBtn {
   border-bottom: 2px solid var(--neonGreen);
-}
-
-.custom-shape-divider-bottom-1639504706 {
-  position: absolute;
-  bottom: -600px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1639504706 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.custom-shape-divider-bottom-1639504706 .shape-fill {
-  fill: var(--black);
 }
 
 /*identity*/
